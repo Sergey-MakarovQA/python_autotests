@@ -30,9 +30,7 @@ def test_part_of_response_trainer_id():
 CASES = [
     ('trainer_name', 'Айджаз'),
     ('city', 'Москва')
-
 ]
-
 
 @pytest.mark.parametrize('key, value', CASES)
 
